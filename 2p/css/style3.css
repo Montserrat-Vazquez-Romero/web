@@ -1,0 +1,25 @@
+.fondo {
+    color: white;
+    background-position: 0% 50%;
+    background-image: url("../img/900w-pKfl8ntjjp0.webp");
+    text-align: center;
+}
+
+.width{
+    min-width: 500px;
+}
+
+.all i {
+    width: 100%;
+}
+
+.radio {
+
+
+    height: 15px;
+    
+    padding: 0px;
+    overflow: hidden;
+    width: 15px;
+    border-radius: 50%;
+}
