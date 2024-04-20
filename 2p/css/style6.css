@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(217, 217, 217);
+}
+
+.todo{
+    height: 120vh;
+}
+
+body{
+    font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.logo{
+    color: rgb(0, 136, 255);
+    font-size: 8rem;
+    margin-bottom: 0px;
+}
+
+.boton{
+    background-color: rgb(0, 255, 55);
+    border-color: transparent;
+}
