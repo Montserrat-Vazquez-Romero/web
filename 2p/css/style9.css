@@ -1,0 +1,60 @@
+    .input {
+        border-style: none;
+        background-color: transparent;
+    }
+
+    .cajita {
+        padding: 10px;
+        background-color: transparent;
+
+        border-radius: 10px;
+
+
+        border-bottom: solid 2px rgb(146, 1, 49);
+        border-left: solid 2px rgb(137, 17, 57);
+    }
+
+    .cremita {
+        background-color: rgb(255, 243, 218);
+    }
+
+    .border-max {
+        border-radius: 70px;
+    }
+
+    .btn2 {
+        border-radius: 5px;
+        border: 2px solid rgb(94, 0, 31);
+    }
+
+    .centrar-todo{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    body {
+        background-color: rgb(235, 223, 255);
+    }
+
+    .nav {
+        background: linear-gradient(rgb(104, 16, 37),rgb(134, 0, 54));
+    }
+
+    .img {
+        height: 50px;
+    }
+
+    .color {
+        font-size: 50px;
+        color: rgb(94, 0, 31);
+    }
+
+    body{
+        font-family: "Flamenco", system-ui;
+  font-weight: 600;
+  font-style: normal;
+    }
+
+    p{
+        margin: 0px;
+    }
