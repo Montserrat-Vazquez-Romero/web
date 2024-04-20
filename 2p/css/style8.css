@@ -1,0 +1,24 @@
+
+.nav {
+    background-color: rgb(107, 159, 255);
+}
+body{
+    font-optical-sizing: auto;
+    font-family: "Nunito", sans-serif;
+  font-style: normal;
+}
+i{
+    cursor: pointer;
+}
+.todo-h {
+    height: 90vh;
+}
+p {
+    margin: 0px;
+}
+.img {
+    height: 40px;
+}
+.fondo-2 {
+    background-color: rgb(51, 77, 150);
+}
