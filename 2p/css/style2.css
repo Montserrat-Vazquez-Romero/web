@@ -1,0 +1,98 @@
+.toggle-switch {
+
+  position: relative;
+  display: inline-block;
+
+
+  width: 40px;
+  height: 24px;
+
+
+  margin: 10px;
+}
+
+.sombra {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+.color1 {
+
+  background-color: orangered;
+}
+
+.color2 {
+  background-color: rgb(185, 49, 0);
+}
+
+
+
+
+p {
+  margin: 0%;
+}
+
+.toggle-switch .toggle-label::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+
+
+  height: 15px;
+  border-radius: 50%;
+  top: 5px;
+  left: 3px;
+  background-color: #000000;
+  transition: transform 0.3s;
+}
+
+.toggle-switch .toggle-input:checked+.toggle-label {
+  background-color: #395aff;
+}
+
+
+
+.window {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+
+
+}
+
+.toggle-switch .toggle-input {
+
+
+  display: none;
+}
+
+.toggle-switch .toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 26px;
+  background-color: #ffffff;
+  border-color: rgb(173, 173, 173);
+  border-radius: 34px;
+  border-width: 1px;
+
+
+
+  border-style: solid;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-switch .toggle-input:checked+.toggle-label::before {
+  transform: translateX(20px);
+  background-color: #ffffff;
+  border-width: 0px;
+}
+
+.nav {
+  color: white;
+
+  text-align: center;
+  background-color: rgb(20, 20, 20);
+}
