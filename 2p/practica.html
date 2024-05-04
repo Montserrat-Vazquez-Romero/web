@@ -1,0 +1,202 @@
+<!doctype l>
+<l lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>registro</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Inconsolata:wght@200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quando&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0 m-0 d-flex justify-content-between flex-wrap">
+        <div class="col-12 d-flex text-light nav px-2 align-items-center py-2 shadow">
+            <img src="img/logopage.png" alt="" class="img mx-4">
+            <p>Inicio de sesión</p>
+            <p class="ms-2">Registro</p>
+        </div>
+        <div class="col-12">
+            <div class="col text-center">
+                <p class="fs-4">Sistema de Gestión de Documentos Escolares</p>
+            </div>
+        </div>
+        <div class="col-12 mb-4">
+            <div class="row d-flex m-0 p-0">
+                <div class="col-lg-4">
+                    <div class="cajita2 mb-3 justify-content-center align-items-center d-flex">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <p class="ms-2 fs-4">REGISTRO DE ALUMNO</p>
+                    </div>
+                    <div class="card px-2 pt-3">
+                        <div class="card mb-4">
+                            <div class="row m-0 d-flex justify-content-center my-4">
+                                <div class="col-md-3 d-flex justify-content-center mb-4">
+                                    <img src="img/foto.png">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="input-group mb-2">
+                            <span class=" input-group-text">Tipo de Usuario: </span>
+                            <select class="form-select">
+                                <option value="">ALUMNO</option>
+                                <option value="">MAESTRO</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="cajita2 text-center mb-3">
+                        <p class="fs-4">INGRESE SUS DATOS PARA EL REGISTRO</p>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label class="form-label ps-2">Nombre</label>
+                                <input type="text" placeholder="Nombre empezando con mayúscula" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label ps-2">Apellido Paterno</label>
+                                <input type="text" placeholder="Apellido empezando con mayúscula" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label ps-2">Apellido Materno :</label>
+                                <input type="text" id="am" placeholder="Apellido empezando con mayúscula" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label ps-2">Fecha de nacimiento :</label>
+                                <input type="date" placeholder="Fecha de nacimiento" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label ps-2">Correo electrónico :</label>
+                                <input type="email" placeholder="Correo electrónico" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label ps-2">CURP :</label>
+                                <input type="text" placeholder="CURP" class="form-control">
+                            </div>
+                            <div class="col-md-8">
+                                <label class="form-label ps-2">Direccion :</label>
+                                <input type="text area" placeholder="Dirección" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label ps-2">Teléfono :</label>
+                                <input type="text" placeholder="Teléfono" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label ps-2">Facebook :</label>
+                                <input type="text" placeholder="Facebook" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label ps-2">Twitter :</label>
+                                <input type="text" placeholder="Twitter" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label ps-2">Instagram :</label>
+                                <input type="text" placeholder="Instagram" class="form-control">
+                            </div>
+                            <hr class="mt-3">
+                            <div class="col-md-5 col-lg-6 mb-2">
+                                <div class="input-group">
+                                    <span class="input-group-text">Especialidad :</span>
+                                    <select class="form-select">
+                                        <option value="">Programacion</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-2">
+                                <div class="input-group">
+                                    <span class="input-group-text">grado :</span>
+                                    <select class="form-select">
+                                        <option value="">°1</option>
+                                        <option value="">°2</option>
+                                        <option value="">°3</option>
+                                        <option value="">°4</option>
+                                        <option value="">°5</option>
+                                        <option value="">°6</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <div class="input-group"><span class="input-group-text">Grupo</span><select class="form-select">
+                                        <option value="">A</option>
+                                        <option value="">B</option>
+                                        <option value="">C</option>
+                                        <option value="">D</option>
+                                        <option value="">E</option>
+                                        <option value="">F</option>
+                                        <option value="">G</option>
+                                        <option value="">H</option>
+                                        <option value="">I</option>
+                                        <option value="">J</option>
+                                        <option value="">K</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input-group mb-3 px-3">
+                                <span class="input-group-text">Área</span>
+                                <input type="text" class="form-control">
+                                <span class="input-group-text">Turno</span>
+                                <select id="input-group-text" class="form-select">
+                                    <option value="Matutino">Matutino</option>
+                                    <option value="Vespertino">Vespertino</option>
+                                </select>
+                            </div>
+                            <div class="input-group mb-3 px-3">
+                                <span class="input-group-text">#</span>
+                                <input type="text" placeholder="Numero de Control" value="" class="form-control">
+                                <span class="input-group-text">!importante</span>
+                            </div>
+                            <div class="col-md-6 pt-3">
+                                <div class="input-group mb-3 px-3">
+                                    <span class="input-group-text">Contraseña</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6 pt-3">
+                                <div class="input-group mb-3 px-3">
+                                    <span class="input-group-text">Confirmar</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-2 mb-2">
+                            <button class="btn btn-secondary text-white">Registro de Alumno</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <hr>
+        </div>
+        <div class="col-12 flex-wrap d-flex justify-content-between" style="font-size: 18px;">
+            <p>Copiright <i class="fa-regular fa-copyright"></i> Sistema de Gestión de Documentos Escolares CBTis66 2024
+            </p>
+            <div class="d-flex">
+                <i class="fa-brands fa-github mx-1"></i>
+                <i class="fa-brands fa-facebook mx-1"></i>
+                <i class="fa-brands fa-instagram mx-1"></i>
+                <i class="fa-brands fa-tiktok mx-1"></i>
+                <i class="fa-brands fa-whatsapp mx-1"></i>
+            </div>
+            <p class="mx-2">SIGEDOES - AS650</p>
+            <div class="mx-2 d-flex">
+                <a href="#">Privacy Policy</a>
+                <p class="mx-2">•</p>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</l>
